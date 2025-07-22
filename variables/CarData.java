@@ -1,3 +1,5 @@
+package variables;
+
 public class CarData {
     public static void main(String[] args) {
         String Car_Name = "Mahindra Thar";

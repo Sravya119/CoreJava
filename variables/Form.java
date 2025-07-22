@@ -1,4 +1,6 @@
- public class Form {
+package variables;
+
+public class Form {
     public static void main(String[] args){
         short firstYear = 1;
         boolean transferee = false;
@@ -75,6 +77,5 @@
         System.out.println("Disability Yes" + isDisability_yes); 
         System.out.println("Disability No" + isDisability_no); 
         System.out.println("Disability Type" + disabilityType); 
-
     }
 }
