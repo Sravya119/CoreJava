@@ -30,7 +30,8 @@ public class BankAccount {
         System.out.println("Account Holder: " + accountHolderName);
         System.out.println("Final Balance: " + accountBalance);
         System.out.println("Number of Transactions: " + numberOfTransactions);
-        System.out.println("Verify account is active:" + accountIsActive);
-        System.out.println("Verify if deposit is valid and account is active:" + isValid);
+        System.out.println("Verify account is active: " + accountIsActive);
+        System.out.println("Verify if deposit is valid: " + isValid);
+        System.out.println("Check if balance is below minimum threshold: " + belowMinimum);
     }
 }

@@ -29,7 +29,7 @@ public class CalculateMonthlyEMI {
 
         System.out.println("Loan Amount: " + loanAmount);
         System.out.println("Loan Period: " + loanPeriodYears);
-        System.out.println("Monthly EMI: " + emi);
+        System.out.println("Monthly EMI: " + (int)emi);
         System.out.println("Total Amount: " + onRoadPrice);
 
 
